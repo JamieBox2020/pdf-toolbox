@@ -10,7 +10,7 @@
 
 #### 二、🌍 使用指南 | Usage Guide
 
-- 在线使用 | Online Access： [http://github.com](http://github.com)
+- 在线使用 | Online Access： [https://jamiebox2020.github.io/pdf-toolbox/](https://jamiebox2020.github.io/pdf-toolbox/)
 
 - 访问网站后导入PDF文件，然后会自动转换成相应的图片，默认为 PNG 格式  
   Upload a PDF file after accessing the website, and it will be automatically converted into images (default format: PNG)
@@ -28,14 +28,9 @@
 
 #### 四、📢 项目运行 | Project Setup
 
-> - 安装依赖（首次运行必要操作）：`npm install`  
->   Install dependencies (required for first run): `npm install`
-
-> - 本地运行：`npm run dev`  
->   Run locally: `npm run dev`
-
-> - 打包部署：`npm run build`  
->   Build for production: `npm run build`
+> - 安装依赖（首次运行必要操作）| Install dependencies (required for first run)：`npm install`  
+> - 本地运行 | Run locally：`npm run dev`  
+> - 打包部署 | Build for production：`npm run build`  
 
 #### 五、🚩 未来计划 | Roadmap
 
