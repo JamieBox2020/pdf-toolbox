@@ -1,14 +1,19 @@
-## PDF转图片工具箱 | PDF to Image Toolbox
+# PDF转图片工具箱 | PDF to Image Toolbox
 
-### 版本 v1.0.1 | Version v1.0.1
+## 版本 v1.0.1 | Version v1.0.1
 
-#### 一、🎈 版本环境 | Environment
+### 一、⭐ 项目介绍 | Introduction
 
-> - Node.js： v22.18.0
-> - Vue： v3.5.32
-> - Vite：v8.0.4
+- 基于 Vue + Vite + Element Plus + PDFLib 的网页项目  
+  A web project based on Vue, Vite, Element Plus and PDFLib.
 
-#### 二、🌍 使用指南 | Usage Guide
+### 二、🎈 版本环境 | Environment
+
+- Node.js： v22.18.0
+- Vue： v3.5.32
+- Vite：v8.0.4
+
+### 三、🌍 使用指南 | Usage Guide
 
 - 在线使用 | Online Access： [https://jamiebox2020.github.io/pdf-toolbox/](https://jamiebox2020.github.io/pdf-toolbox/)
 
@@ -18,7 +23,7 @@
 - 可预览下载单个图片，可批量导出所有图片，默认 ZIP 压缩包形式  
   Supports preview and download of individual images, as well as batch export of all images (default as ZIP archive)
 
-#### 三、⭐ 功能特点 | Features
+### 四、⭐ 功能特点 | Features
 
 - 支持不同类型PDF文件转图片  
   Supports converting various types of PDF files into images
@@ -26,13 +31,13 @@
 - 转换后图片预览与下载  
   Preview and download converted images
 
-#### 四、📢 项目运行 | Project Setup
+### 五、📢 项目运行 | Project Setup
 
-> - 安装依赖（首次运行必要操作）| Install dependencies (required for first run)：`npm install`  
-> - 本地运行 | Run locally：`npm run dev`  
-> - 打包部署 | Build for production：`npm run build`  
+- 安装依赖（首次运行必要操作）| Install dependencies (required for first run)：`npm install`  
+- 本地运行 | Run locally：`npm run dev`  
+- 打包部署 | Build for production：`npm run build`  
 
-#### 五、🚩 未来计划 | Roadmap
+### 六、🚩 未来计划 | Plan
 
 - 支持多格式图片转换  
   Support multiple image formats
