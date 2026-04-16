@@ -23,7 +23,7 @@
         <el-button type="primary" :icon="Files" @click="downloadAllImages">打包下载所有图片</el-button>
       </div>
     </div>
-    <el-dialog v-model="showDetail" :title="`${imageDetail.alt} 详情`" top="8vh" body-class="detail__dialog">
+    <el-dialog v-model="showDetail" :title="`${imageDetail.alt} 详情`" top="8vh" body-class="detail__dialog" :lock-scroll="false">
       <el-text type="info">再次点击图片进入全屏预览</el-text>
       <el-image class="detail__img" :src="imageDetail.src" :alt="imageDetail.alt" :preview-src-list="imagesPreviewList" :initial-index="imageDetail.index"></el-image>
       <div class="detail__download">
