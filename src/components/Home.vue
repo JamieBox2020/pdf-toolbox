@@ -78,7 +78,7 @@ async function onFileChange($event: Event) {
   for (let i = 1; i <= pdfPagesNum.value; i++) {
     const page = await pdf.getPage(i);
     // 控制缩放比例
-    const viewport = page.getViewport({ scale: 1.0 });
+    const viewport = page.getViewport({ scale: 2.0 });
     const canvas = document.createElement('canvas');
     const context = canvas.getContext('2d');
 
